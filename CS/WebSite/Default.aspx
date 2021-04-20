@@ -8,11 +8,9 @@
 <body>
     <form id="mainForm" runat="server">
     <div>
-        <a href="AutomaticEditingCapabilities.aspx">Automatic Editing Capabilities (CRUD Operations)</a><br />
-        <a href="CustomEditingCapabilities.aspx">Custom / Manual Editing Capabilities (CRUD Operations)</a><br />
+        <a href="CustomEditingCapabilities.aspx">CRUD Operations</a><br />
         <a href="MasterDetail.aspx">Master Detail</a><br />
         <a href="LookUpColumn.aspx">LookUp Column</a><br />
-        <a href="ServerModeLinqObsolete.aspx">Server Mode Linq (Obsolete)</a><br />
         <a href="ServerModeEF.aspx">Server Mode EF</a>
     </div>
     </form>
