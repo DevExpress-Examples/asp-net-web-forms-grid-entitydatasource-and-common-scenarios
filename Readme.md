@@ -1,9 +1,9 @@
 <!-- default file list -->
 *Files to look at*:
 
-* [NorthwindModel.Designer.cs](./CS/WebSite/App_Code/NorthwindModel.Designer.cs) (VB: [NorthwindModel.Designer.vb](./VB/WebSite/App_Code/NorthwindModel.Designer.vb))
-* [AutomaticEditingCapabilities.aspx](./CS/WebSite/AutomaticEditingCapabilities.aspx) (VB: [AutomaticEditingCapabilities.aspx](./VB/WebSite/AutomaticEditingCapabilities.aspx))
-* [AutomaticEditingCapabilities.aspx.cs](./CS/WebSite/AutomaticEditingCapabilities.aspx.cs) (VB: [AutomaticEditingCapabilities.aspx.vb](./VB/WebSite/AutomaticEditingCapabilities.aspx.vb))
+* [Model1.cs](./CS/WebSite/App_Code/Model1.cs) (VB: [Model1.vb](./VB/WebSite/App_Code/Model1.vb))
+* [Category.cs](./CS/WebSite/App_Code/Category.cs) (VB: [Category.vb](./VB/WebSite/App_Code/Category.vb))
+* [Product.cs](./CS/WebSite/App_Code/Product.cs) (VB: [Product.vb](./VB/WebSite/App_Code/Product.vb))
 * [CustomEditingCapabilities.aspx](./CS/WebSite/CustomEditingCapabilities.aspx) (VB: [CustomEditingCapabilities.aspx](./VB/WebSite/CustomEditingCapabilities.aspx))
 * [CustomEditingCapabilities.aspx.cs](./CS/WebSite/CustomEditingCapabilities.aspx.cs) (VB: [CustomEditingCapabilities.aspx.vb](./VB/WebSite/CustomEditingCapabilities.aspx.vb))
 * [Default.aspx](./CS/WebSite/Default.aspx) (VB: [Default.aspx](./VB/WebSite/Default.aspx))
@@ -12,10 +12,8 @@
 * [MasterDetail.aspx.cs](./CS/WebSite/MasterDetail.aspx.cs) (VB: [MasterDetail.aspx.vb](./VB/WebSite/MasterDetail.aspx.vb))
 * [ServerModeEF.aspx](./CS/WebSite/ServerModeEF.aspx) (VB: [ServerModeEF.aspx](./VB/WebSite/ServerModeEF.aspx))
 * [ServerModeEF.aspx.cs](./CS/WebSite/ServerModeEF.aspx.cs) (VB: [ServerModeEF.aspx.vb](./VB/WebSite/ServerModeEF.aspx.vb))
-* [ServerModeLinqObsolete.aspx](./CS/WebSite/ServerModeLinqObsolete.aspx) (VB: [ServerModeLinqObsolete.aspx](./VB/WebSite/ServerModeLinqObsolete.aspx))
-* [ServerModeLinqObsolete.aspx.cs](./CS/WebSite/ServerModeLinqObsolete.aspx.cs) (VB: [ServerModeLinqObsolete.aspx.vb](./VB/WebSite/ServerModeLinqObsolete.aspx.vb))
 <!-- default file list end -->
-# How to implement common scenarios within the grid bound with the EntityDataSource / EF
+# How to implement common scenarios within the grid bound with the Entity Framework 6
 
 
 <p>This is an example for the K18504 <a href="https://www.devexpress.com/Support/Center/p/K18504">How to implement common scenarios when using ASPxGridView bound with EntityDataSource / Entity Framework</a> KB Article. Please refer to the article for an explanation.</p>
