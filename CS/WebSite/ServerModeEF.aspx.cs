@@ -1,11 +1,22 @@
 ﻿using System;
 using DevExpress.Web;
-
-/*DevExpress.Xpf.Core.vXX.Y.dll*/
 using DevExpress.Data.Linq;
-/*DevExpress.Xpf.Core.vXX.Y.dll*/
 
 public partial class ServerModeEF : System.Web.UI.Page {
+    private Model1 _dataContext;
+
+    public Model1 DataContext
+    {
+        get
+        {
+            if (_dataContext == null)
+            {
+                _dataContext = new Model1();
+            }
+
+            return _dataContext;
+        }
+    }
     protected void Page_Load(object sender, EventArgs e) {
         if (!IsCallback && !IsPostBack)
             grid.DataBind();
@@ -15,7 +26,7 @@ public partial class ServerModeEF : System.Web.UI.Page {
     }
     private EntityServerModeSource GetEntityServerModeSource() {
         EntityServerModeSource esms = new EntityServerModeSource();
-        esms.QueryableSource = new NorthwindModel.NorthwindEntities().Products;
+        esms.QueryableSource = DataContext.Products;
         esms.KeyExpression = "ProductID";
 
         return esms;
