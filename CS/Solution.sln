@@ -2,34 +2,24 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31025.194
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "WebSite", "WebSite\", "{E7100136-FDA4-46DF-B114-8F6ECC7C2DF8}"
-	ProjectSection(WebsiteProperties) = preProject
-		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.7.2"
-		Debug.AspNetCompiler.VirtualPath = "/WebSite"
-		Debug.AspNetCompiler.PhysicalPath = "WebSite\"
-		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\WebSite\"
-		Debug.AspNetCompiler.Updateable = "true"
-		Debug.AspNetCompiler.ForceOverwrite = "true"
-		Debug.AspNetCompiler.FixedNames = "false"
-		Debug.AspNetCompiler.Debug = "True"
-		Release.AspNetCompiler.VirtualPath = "/WebSite"
-		Release.AspNetCompiler.PhysicalPath = "WebSite\"
-		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\WebSite\"
-		Release.AspNetCompiler.Updateable = "true"
-		Release.AspNetCompiler.ForceOverwrite = "true"
-		Release.AspNetCompiler.FixedNames = "false"
-		Release.AspNetCompiler.Debug = "False"
-		VWDPort = "2101"
-		SlnRelativePath = "WebSite\"
-	EndProjectSection
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GridEntityFramework", "GridEntityFramework\GridEntityFramework.csproj", "{86A892C6-4B2D-42E2-8AD6-E59DC44E63B4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|.NET = Debug|.NET
+		Debug|Any CPU = Debug|Any CPU
+		Release|.NET = Release|.NET
+		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{E7100136-FDA4-46DF-B114-8F6ECC7C2DF8}.Debug|.NET.ActiveCfg = Debug|.NET
-		{E7100136-FDA4-46DF-B114-8F6ECC7C2DF8}.Debug|.NET.Build.0 = Debug|.NET
+		{86A892C6-4B2D-42E2-8AD6-E59DC44E63B4}.Debug|.NET.ActiveCfg = Debug|Any CPU
+		{86A892C6-4B2D-42E2-8AD6-E59DC44E63B4}.Debug|.NET.Build.0 = Debug|Any CPU
+		{86A892C6-4B2D-42E2-8AD6-E59DC44E63B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86A892C6-4B2D-42E2-8AD6-E59DC44E63B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86A892C6-4B2D-42E2-8AD6-E59DC44E63B4}.Release|.NET.ActiveCfg = Release|Any CPU
+		{86A892C6-4B2D-42E2-8AD6-E59DC44E63B4}.Release|.NET.Build.0 = Release|Any CPU
+		{86A892C6-4B2D-42E2-8AD6-E59DC44E63B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86A892C6-4B2D-42E2-8AD6-E59DC44E63B4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

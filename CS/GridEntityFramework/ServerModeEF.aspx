@@ -1,15 +1,14 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="ServerModeEF.aspx.cs" Inherits="ServerModeEF" %>
-<%@ Register Assembly="DevExpress.Web.v20.2, Version=20.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a"
-    Namespace="DevExpress.Web" TagPrefix="dx" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="ServerModeEF.aspx.cs" Inherits="GridEntityFramework.ServerModeEF" %>
 
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!DOCTYPE html>
+
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <title></title>
+    <title>Entity Framework Server Mode</title>
 </head>
 <body>
-    <form id="mainForm" runat="server">
-    <div>
+    <form id="form1" runat="server">
+         <div>
         <dx:ASPxGridView ID="grid" runat="server" AutoGenerateColumns="False" KeyFieldName="ProductID"
             OnDataBinding="grid_DataBinding">
             <Columns>
