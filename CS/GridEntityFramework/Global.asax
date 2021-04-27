@@ -1,0 +1,1 @@
+<%@ Application Codebehind="Global.asax.cs" Inherits="GridEntityFramework.Global_asax" Language="C#" %>

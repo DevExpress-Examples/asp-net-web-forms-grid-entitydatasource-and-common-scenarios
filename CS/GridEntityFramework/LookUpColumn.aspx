@@ -1,17 +1,14 @@
-<%@ Page Language="C#" AutoEventWireup="true" CodeFile="LookUpColumn.aspx.cs" Inherits="LookUpColumn" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="LookUpColumn.aspx.cs" Inherits="GridEntityFramework.LookUpColumn" %>
 
-<%@ Register Assembly="System.Web.Entity, Version=3.5.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"
-    Namespace="System.Web.UI.WebControls" TagPrefix="asp" %>
-<%@ Register Assembly="DevExpress.Web.v20.2, Version=20.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a"
-    Namespace="DevExpress.Web" TagPrefix="dx" %>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!DOCTYPE html>
+
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <title></title>
+    <title>Lookup Column</title>
 </head>
 <body>
-    <form id="mainForm" runat="server">
-        <div>
+    <form id="form1" runat="server">
+       <div>
             <dx:ASPxGridView ID="grid" runat="server" AutoGenerateColumns="False" 
                 OnDataBinding="grid_DataBinding"
                 OnRowDeleting="grid_RowDeleting" 

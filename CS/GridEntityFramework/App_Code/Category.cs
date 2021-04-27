@@ -5,8 +5,8 @@ using System.Web;
 using System.Data.Entity.Spatial;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.ComponentModel.DataAnnotations;
-
-
+namespace GridEntityFramework
+{
     public partial class Category
     {
         public Category()
@@ -24,3 +24,5 @@ using System.ComponentModel.DataAnnotations;
         public byte[] Picture { get; set; }
         public virtual ICollection<Product> Products { get; set; }
     }
+
+}
