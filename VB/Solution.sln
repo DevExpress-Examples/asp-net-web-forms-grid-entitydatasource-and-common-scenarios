@@ -1,0 +1,30 @@
+﻿Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31025.194
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "GridEntityFramework", "GridEntityFramework\GridEntityFramework.vbproj", "{86A892C6-4B2D-42E2-8AD6-E59DC44E63B4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|.NET = Debug|.NET
+		Debug|Any CPU = Debug|Any CPU
+		Release|.NET = Release|.NET
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{86A892C6-4B2D-42E2-8AD6-E59DC44E63B4}.Debug|.NET.ActiveCfg = Debug|Any CPU
+		{86A892C6-4B2D-42E2-8AD6-E59DC44E63B4}.Debug|.NET.Build.0 = Debug|Any CPU
+		{86A892C6-4B2D-42E2-8AD6-E59DC44E63B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86A892C6-4B2D-42E2-8AD6-E59DC44E63B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86A892C6-4B2D-42E2-8AD6-E59DC44E63B4}.Release|.NET.ActiveCfg = Release|Any CPU
+		{86A892C6-4B2D-42E2-8AD6-E59DC44E63B4}.Release|.NET.Build.0 = Release|Any CPU
+		{86A892C6-4B2D-42E2-8AD6-E59DC44E63B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86A892C6-4B2D-42E2-8AD6-E59DC44E63B4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {11217A98-FC27-493D-A804-F3C0E68EC230}
+	EndGlobalSection
+EndGlobal
