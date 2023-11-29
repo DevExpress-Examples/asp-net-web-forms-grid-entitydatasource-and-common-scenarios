@@ -1,10 +1,15 @@
 <!-- default badges list -->
-![](https://img.shields.io/endpoint?url=https://codecentral.devexpress.com/api/v1/VersionRange/128541074/20.2.3%2B)
 [![](https://img.shields.io/badge/Open_in_DevExpress_Support_Center-FF7200?style=flat-square&logo=DevExpress&logoColor=white)](https://supportcenter.devexpress.com/ticket/details/E3251)
 [![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
 <!-- default badges end -->
-<!-- default file list -->
-*Files to look at*:
+
+# Grid View for ASP.NET Web Forms - How to implement common scenarios within a grid bound with Entity Framework 6
+
+This example demonstrates how to bind [ASPxGridView](https://docs.devexpress.com/AspNet/DevExpress.Web.ASPxGridView) with `EntityDataSource` and implement common scenarios: CRUD operations, a master-detail grid, a LookUp column, and server mode. 
+
+For information and implementation details, refer to the following article: [How to implement common scenarios when using ASPxGridView bound with EntityDataSource / Entity Framework (EF)](https://supportcenter.devexpress.com/ticket/details/k18504/how-to-implement-common-scenarios-when-using-aspxgridview-bound-with-entitydatasource)
+
+## Files to Review
 
 * [Model1.cs](./CS/GridEntityFramework/App_Code/Model1.cs) (VB: [Model1.vb](./VB/GridEntityFramework/App_Code/Model1.vb))
 * [Category.cs](./CS/GridEntityFramework/App_Code/Category.cs) (VB: [Category.vb](./VB/GridEntityFramework/App_Code/Category.vb))
@@ -18,12 +23,3 @@
 * [MasterDetail.aspx.cs](./CS/GridEntityFramework/MasterDetail.aspx.cs) (VB: [MasterDetail.aspx.vb](./VB/GridEntityFramework/MasterDetail.aspx.vb))
 * [ServerModeEF.aspx](./CS/GridEntityFramework/ServerModeEF.aspx) (VB: [ServerModeEF.aspx](./VB/GridEntityFramework/ServerModeEF.aspx))
 * [ServerModeEF.aspx.cs](./CS/GridEntityFramework/ServerModeEF.aspx.cs) (VB: [ServerModeEF.aspx.vb](./VB/GridEntityFramework/ServerModeEF.aspx.vb))
-<!-- default file list end -->
-# How to implement common scenarios within the grid bound with the Entity Framework 6
-
-
-<p>This is an example for the K18504 <a href="https://www.devexpress.com/Support/Center/p/K18504">How to implement common scenarios when using ASPxGridView bound with EntityDataSource / Entity Framework</a> KB Article. Please refer to the article for an explanation.</p>
-
-<br/>
-
-
