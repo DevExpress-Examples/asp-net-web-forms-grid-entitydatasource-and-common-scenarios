@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="CustomEditingCapabilities.aspx.cs" Inherits="GridEntityFramework.CustomEditingCapabilities" %>
+<%@ Page Language="VB" AutoEventWireup="true" CodeBehind="CustomEditingCapabilities.aspx.vb" Inherits="GridEntityFramework.CustomEditingCapabilities" %>
 
 <!DOCTYPE html>
 

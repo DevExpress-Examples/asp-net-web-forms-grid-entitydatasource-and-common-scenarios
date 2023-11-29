@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="LookUpColumn.aspx.cs" Inherits="GridEntityFramework.LookUpColumn" %>
+<%@ Page Language="VB" AutoEventWireup="true" CodeBehind="LookUpColumn.aspx.vb" Inherits="GridEntityFramework.LookUpColumn" %>
 
 <!DOCTYPE html>
 

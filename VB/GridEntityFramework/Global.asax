@@ -1,1 +1,1 @@
-<%@ Application Codebehind="Global.asax.cs" Inherits="GridEntityFramework.Global_asax" Language="C#" %>
+<%@ Application Codebehind="Global.asax.vb" Inherits="GridEntityFramework.Global_asax" Language="VB" %>

@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="ServerModeEF.aspx.cs" Inherits="GridEntityFramework.ServerModeEF" %>
+<%@ Page Language="VB" AutoEventWireup="true" CodeBehind="ServerModeEF.aspx.vb" Inherits="GridEntityFramework.ServerModeEF" %>
 
 <!DOCTYPE html>
 

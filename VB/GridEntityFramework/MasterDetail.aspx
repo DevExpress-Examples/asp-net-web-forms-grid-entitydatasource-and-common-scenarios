@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="MasterDetail.aspx.cs" Inherits="GridEntityFramework.MasterDetail" %>
+<%@ Page Language="VB" AutoEventWireup="true" CodeBehind="MasterDetail.aspx.vb" Inherits="GridEntityFramework.MasterDetail" %>
 
 <!DOCTYPE html>
 
