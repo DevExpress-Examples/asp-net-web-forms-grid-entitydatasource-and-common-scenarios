@@ -3,11 +3,11 @@
 [![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
 <!-- default badges end -->
 
-# Grid View for ASP.NET Web Forms - How to implement common scenarios within the grid bound with the Entity Framework 6
+# Grid View for ASP.NET Web Forms - How to implement common scenarios within a grid bound with Entity Framework 6
 
-This example demonstrates how to bind [ASPxGridView](https://docs.devexpress.com/AspNet/DevExpress.Web.ASPxGridView) with `EntityDataSource` and implement common scenarios: CRUD orerations, master-detail grid, LookUp column, and server mode. 
+This example demonstrates how to bind [ASPxGridView](https://docs.devexpress.com/AspNet/DevExpress.Web.ASPxGridView) with `EntityDataSource` and implement common scenarios: CRUD operations, a master-detail grid, a LookUp column, and server mode. 
 
-For more informarion and implementation details, refer to the following article: [How to implement common scenarios when using ASPxGridView bound with EntityDataSource / Entity Framework (EF)](https://supportcenter.devexpress.com/ticket/details/k18504/how-to-implement-common-scenarios-when-using-aspxgridview-bound-with-entitydatasource)
+For information and implementation details, refer to the following article: [How to implement common scenarios when using ASPxGridView bound with EntityDataSource / Entity Framework (EF)](https://supportcenter.devexpress.com/ticket/details/k18504/how-to-implement-common-scenarios-when-using-aspxgridview-bound-with-entitydatasource)
 
 ## Files to Review
 
