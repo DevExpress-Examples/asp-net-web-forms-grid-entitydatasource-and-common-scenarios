@@ -8,40 +8,33 @@
 </head>
 <body>
     <form id="form1" runat="server">
-       <dx:ASPxGridView ID="gridMaster" runat="server" AutoGenerateColumns="False" OnDataBinding="gridMaster_DataBinding"
-                KeyFieldName="CategoryID">
-                <Columns>
-                    <dx:GridViewDataTextColumn FieldName="CategoryID" VisibleIndex="0">
-                        <EditFormSettings Visible="False" />
-                    </dx:GridViewDataTextColumn>
-                    <dx:GridViewDataTextColumn FieldName="CategoryName" VisibleIndex="1">
-                    </dx:GridViewDataTextColumn>
-                    <dx:GridViewDataTextColumn FieldName="Description" VisibleIndex="2">
-                    </dx:GridViewDataTextColumn>
-                </Columns>
-                <Templates>
-                    <DetailRow>
-                        <dx:ASPxGridView ID="gridDetail" runat="server"
-                            AutoGenerateColumns="False" OnInit="gridDetail_Init" KeyFieldName="ProductID">
-                            <Columns>
-                                <dx:GridViewDataTextColumn FieldName="ProductID" VisibleIndex="0">
-                                    <EditFormSettings Visible="False" />
-                                </dx:GridViewDataTextColumn>
-                                <dx:GridViewDataTextColumn FieldName="ProductName" VisibleIndex="1">
-                                </dx:GridViewDataTextColumn>
-                                <dx:GridViewDataTextColumn FieldName="UnitPrice" VisibleIndex="2">
-                                </dx:GridViewDataTextColumn>
-                                <dx:GridViewDataCheckColumn FieldName="Discontinued" VisibleIndex="3">
-                                </dx:GridViewDataCheckColumn>
-                            </Columns>
-                        </dx:ASPxGridView>
-                    </DetailRow>
-                </Templates>
-                <SettingsDetail ShowDetailRow="true" />
-            </dx:ASPxGridView>
-        </div>
-        <br />
-        <a href="Default.aspx"><< Home</a>
+        <dx:ASPxGridView ID="gridMaster" runat="server" AutoGenerateColumns="False" OnDataBinding="gridMaster_DataBinding" KeyFieldName="CategoryID">
+            <Columns>
+                <dx:GridViewDataTextColumn FieldName="CategoryID" >
+                    <EditFormSettings Visible="False" />
+                </dx:GridViewDataTextColumn>
+                <dx:GridViewDataTextColumn FieldName="CategoryName" />
+                <dx:GridViewDataTextColumn FieldName="Description" />
+            </Columns>
+            <Templates>
+                <DetailRow>
+                    <dx:ASPxGridView ID="gridDetail" runat="server" AutoGenerateColumns="False" OnInit="gridDetail_Init" KeyFieldName="ProductID">
+                        <Columns>
+                            <dx:GridViewDataTextColumn FieldName="ProductID" >
+                                <EditFormSettings Visible="False" />
+                            </dx:GridViewDataTextColumn>
+                            <dx:GridViewDataTextColumn FieldName="ProductName" />
+                            <dx:GridViewDataTextColumn FieldName="UnitPrice" />
+                            <dx:GridViewDataCheckColumn FieldName="Discontinued" />
+                        </Columns>
+                    </dx:ASPxGridView>
+                </DetailRow>
+            </Templates>
+            <SettingsDetail ShowDetailRow="true" />
+        </dx:ASPxGridView>
+    </div>
+    <br />
+    <a href="Default.aspx"><< Home</a>
     </form>
 </body>
 </html>

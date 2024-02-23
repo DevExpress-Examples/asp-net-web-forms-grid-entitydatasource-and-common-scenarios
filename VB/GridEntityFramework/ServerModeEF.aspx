@@ -12,14 +12,10 @@
         <dx:ASPxGridView ID="grid" runat="server" AutoGenerateColumns="False" KeyFieldName="ProductID"
             OnDataBinding="grid_DataBinding">
             <Columns>
-                <dx:GridViewDataTextColumn FieldName="ProductID" VisibleIndex="0">
-                </dx:GridViewDataTextColumn>
-                <dx:GridViewDataTextColumn FieldName="ProductName" VisibleIndex="1">
-                </dx:GridViewDataTextColumn>
-                <dx:GridViewDataTextColumn FieldName="UnitPrice" VisibleIndex="2">
-                </dx:GridViewDataTextColumn>
-                <dx:GridViewDataCheckColumn FieldName="Discontinued" VisibleIndex="3">
-                </dx:GridViewDataCheckColumn>
+                <dx:GridViewDataTextColumn FieldName="ProductID" />
+                <dx:GridViewDataTextColumn FieldName="ProductName" />
+                <dx:GridViewDataTextColumn FieldName="UnitPrice" />
+                <dx:GridViewDataCheckColumn FieldName="Discontinued" />
             </Columns>
         </dx:ASPxGridView>
     </div>
