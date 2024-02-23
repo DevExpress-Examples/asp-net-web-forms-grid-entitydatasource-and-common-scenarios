@@ -6,7 +6,7 @@
 
 # Grid View for ASP.NET Web Forms - How to implement common scenarios within a grid bound with Entity Framework 6
 
-This example demonstrates how to bind [ASPxGridView](https://docs.devexpress.com/AspNet/DevExpress.Web.ASPxGridView) with Entity Framework 6 and implement common scenarios: CRUD operations, a master-detail grid, a LookUp column, and server mode. 
+This example demonstrates how to bind [ASPxGridView](https://docs.devexpress.com/AspNet/DevExpress.Web.ASPxGridView) with Entity Framework 6 and implement common scenarios: CRUD operations, a master-detail grid, a lookup column, and server mode. 
 
 ## Implementation Details
 
@@ -100,7 +100,7 @@ protected void grid_RowDeleting(object sender, DevExpress.Web.Data.ASPxDataDelet
 
 ## Master-Detail Layout
 
-1. Place a detail `ASPxGridView` control in the [DetailRow](https://docs.devexpress.com/AspNet/DevExpress.Web.GridViewTemplates.DetailRow) template of a master grid.
+1. Place a `ASPxGridView` control in the [DetailRow](https://docs.devexpress.com/AspNet/DevExpress.Web.GridViewTemplates.DetailRow) grid template to create a master-detail grid layout.
 2. Handle the detail grid's `Init` event to bind the grid. Call the [GetMasterRowKeyValue](https://docs.devexpress.com/AspNet/DevExpress.Web.ASPxGridView.GetMasterRowKeyValue) method to get the current master row's key value.
 
 ```html
@@ -145,9 +145,9 @@ protected void gridDetail_Init(object sender, EventArgs e) {
 * [MasterDetail.aspx](./CS/GridEntityFramework/MasterDetail.aspx) (VB: [MasterDetail.aspx](./VB/GridEntityFramework/MasterDetail.aspx))
 * [MasterDetail.aspx.cs](./CS/GridEntityFramework/MasterDetail.aspx.cs) (VB: [MasterDetail.aspx.vb](./VB/GridEntityFramework/MasterDetail.aspx.vb))
 
-## Lookup Column/GridViewDataComboBoxColumn
+## Lookup Column
   
-Add a column of the [GridViewDataComboBoxColumn](https://docs.devexpress.com/AspNet/DevExpress.Web.GridViewDataComboBoxColumn) type to the `ASPxGridView` column collection to create a lookup column in the grid. Bind the column to a data source in the `Page_Init` event.
+Add a column of the [GridViewDataComboBoxColumn](https://docs.devexpress.com/AspNet/DevExpress.Web.GridViewDataComboBoxColumn) type in the [Columns](https://docs.devexpress.com/AspNet/DevExpress.Web.ASPxGridView.Columns) collection to create a lookup column in the grid. Bind the column to a data source in the `Page_Init` event.
   
 ```html
 <dx:ASPxGridView ID="grid" runat="server" AutoGenerateColumns="False" KeyFieldName="ProductID" ...>
