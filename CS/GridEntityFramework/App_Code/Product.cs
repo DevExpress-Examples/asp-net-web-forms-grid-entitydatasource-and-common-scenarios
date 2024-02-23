@@ -6,10 +6,8 @@ using System.Data.Entity.Spatial;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.ComponentModel.DataAnnotations;
 
-namespace GridEntityFramework
-{
-    public partial class Product
-    {
+namespace GridEntityFramework {
+    public partial class Product {
         public int ProductID { get; set; }
         [Required]
         [StringLength(40)]

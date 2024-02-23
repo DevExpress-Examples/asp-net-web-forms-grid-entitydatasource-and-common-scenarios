@@ -7,12 +7,9 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace GridEntityFramework
-{
+namespace GridEntityFramework {
 
-
-    public partial class ServerModeEF
-    {
+    public partial class ServerModeEF {
 
         /// <summary>
         /// form1 control.

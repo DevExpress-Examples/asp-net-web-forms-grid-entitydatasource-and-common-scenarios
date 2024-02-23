@@ -8,10 +8,8 @@
 //------------------------------------------------------------------------------
 
 
-namespace GridEntityFramework
-{
-    public partial class Default
-    {
+namespace GridEntityFramework {
+    public partial class Default {
 
         /// <summary>
         /// form1 control.

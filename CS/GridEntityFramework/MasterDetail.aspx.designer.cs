@@ -7,12 +7,10 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace GridEntityFramework
-{
+namespace GridEntityFramework {
 
 
-    public partial class MasterDetail
-    {
+    public partial class MasterDetail {
 
         /// <summary>
         /// form1 control.

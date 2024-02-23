@@ -7,12 +7,9 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace GridEntityFramework
-{
+namespace GridEntityFramework {
 
-
-    public partial class LookUpColumn
-    {
+    public partial class LookUpColumn {
 
         /// <summary>
         /// form1 control.

@@ -7,12 +7,9 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace GridEntityFramework
-{
+namespace GridEntityFramework {
 
-
-    public partial class CustomEditingCapabilities
-    {
+    public partial class CustomEditingCapabilities {
 
         /// <summary>
         /// form1 control.

@@ -5,12 +5,9 @@ using System.Web;
 using System.Data.Entity.Spatial;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.ComponentModel.DataAnnotations;
-namespace GridEntityFramework
-{
-    public partial class Category
-    {
-        public Category()
-        {
+namespace GridEntityFramework {
+    public partial class Category {
+        public Category() {
             Products = new HashSet<Product>();
         }
 
