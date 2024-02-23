@@ -12,7 +12,6 @@ namespace GridEntityFramework {
                 if (_dataContext == null) {
                     _dataContext = new Model1();
                 }
-
                 return _dataContext;
             }
         }

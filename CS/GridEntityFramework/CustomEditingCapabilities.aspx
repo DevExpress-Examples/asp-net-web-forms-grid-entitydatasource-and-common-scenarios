@@ -15,7 +15,7 @@
                 OnRowInserting="grid_RowInserting"
                 OnRowUpdating="grid_RowUpdating">
                 <Columns>
-                    <dx:GridViewCommandColumn ShowEditButton="true" ShowDeleteButton="true" ShowNewButtonInHeader="true"></dx:GridViewCommandColumn>
+                    <dx:GridViewCommandColumn ShowEditButton="true" ShowDeleteButton="true" ShowNewButtonInHeader="true" />
                     <dx:GridViewDataTextColumn FieldName="ProductID" EditFormSettings-Visible="False" />
                     <dx:GridViewDataTextColumn FieldName="ProductName" />
                     <dx:GridViewDataTextColumn FieldName="UnitPrice" />

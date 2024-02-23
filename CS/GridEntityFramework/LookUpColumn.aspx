@@ -16,19 +16,14 @@
 				OnRowUpdating="grid_RowUpdating"
                 KeyFieldName="ProductID">
                 <Columns>
-                    <dx:GridViewCommandColumn VisibleIndex="0" ShowEditButton="True" />
-                    <dx:GridViewDataTextColumn FieldName="ProductID" VisibleIndex="1">
+                    <dx:GridViewCommandColumn ShowEditButton="True" />
+                    <dx:GridViewDataTextColumn FieldName="ProductID" >
                         <EditFormSettings Visible="False" />
                     </dx:GridViewDataTextColumn>
-                    <dx:GridViewDataTextColumn FieldName="ProductName" VisibleIndex="2">
-                    </dx:GridViewDataTextColumn>
-                    <dx:GridViewDataTextColumn FieldName="UnitPrice" VisibleIndex="3">
-                    </dx:GridViewDataTextColumn>
-                    <dx:GridViewDataComboBoxColumn Caption="Category" FieldName="CategoryID"
-                        VisibleIndex="5">
-                        <PropertiesComboBox TextField="CategoryName" ValueField="CategoryID"
-                            ValueType="System.Int32">
-                        </PropertiesComboBox>
+                    <dx:GridViewDataTextColumn FieldName="ProductName" />
+                    <dx:GridViewDataTextColumn FieldName="UnitPrice" /
+                    <dx:GridViewDataComboBoxColumn Caption="Category" FieldName="CategoryID" >
+                        <PropertiesComboBox TextField="CategoryName" ValueField="CategoryID" ValueType="System.Int32" />
                     </dx:GridViewDataComboBoxColumn>
                 </Columns>
             </dx:ASPxGridView>
