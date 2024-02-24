@@ -99,7 +99,7 @@ protected void grid_RowDeleting(object sender, DevExpress.Web.Data.ASPxDataDelet
 
 ## Master-Detail Layout
 
-1. Place a `ASPxGridView` control in the [DetailRow](https://docs.devexpress.com/AspNet/DevExpress.Web.GridViewTemplates.DetailRow) grid template to create a master-detail grid layout.
+1. Place an `ASPxGridView` control in the [DetailRow](https://docs.devexpress.com/AspNet/DevExpress.Web.GridViewTemplates.DetailRow) grid template to create a master-detail grid layout.
 2. Handle the detail grid's `Init` event to bind the grid. Call the [GetMasterRowKeyValue](https://docs.devexpress.com/AspNet/DevExpress.Web.ASPxGridView.GetMasterRowKeyValue) method to get the current master row's key value.
 
 ```html
@@ -173,7 +173,7 @@ protected void Page_Init(object sender, EventArgs e) {
 
 ## Server Mode
 
-Use the [EntityServerModeDataSource](https://docs.devexpress.com/AspNet/DevExpress.Data.Linq.EntityServerModeDataSource) component to bind the `ASPxGridView` control to a data source via the Entity Framework, and enable the [database server mode](https://docs.devexpress.com/AspNet/17292/components/grid-view/concepts/bind-to-data/binding-to-large-data-database-server-mode/data-binding-to-large-data-via-ef).
+Use the [EntityServerModeDataSource](https://docs.devexpress.com/AspNet/DevExpress.Data.Linq.EntityServerModeDataSource) component to bind the `ASPxGridView` control to a data source with the Entity Framework, and enable [database server mode](https://docs.devexpress.com/AspNet/17292/components/grid-view/concepts/bind-to-data/binding-to-large-data-database-server-mode/data-binding-to-large-data-via-ef).
 
 ```html  
 <%@ Page Language="C#" AutoEventWireup="true" CodeBehind="ServerModeEF.aspx.cs" Inherits="GridEntityFramework.ServerModeEF" %>
